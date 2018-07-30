@@ -1,0 +1,56 @@
+body {
+    font-family: 'Lato', Sans-Serif;
+    color: black;
+}
+
+#jumbotron {
+    text-align: center;
+    background: white;
+}
+
+#navbar {
+    text-align: center;
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-link {
+    font-family: 'Arvo', Serif;
+    display: inline;
+    margin-right: 30px;
+}
+
+#abtUsLink, #colBenLink, #newsLink, #mbrsLink, #histLink, #svcsLink, #empLink {
+    color: white;
+}
+
+#map1, #map2 {
+    height: 500px;
+    width: 500px;
+}
+
+#map1 {
+    float: left;
+}
+
+.abtIntro::first-letter {
+    color: red;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-width: 5px;
+    background: #000046;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerTxt {
+    text-align: center;
+    color: white;
+}
